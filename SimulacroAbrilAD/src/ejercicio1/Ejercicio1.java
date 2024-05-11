@@ -1,3 +1,5 @@
+package ejercicio1;
+
 import java.io.*;
 
 public class Ejercicio1 {
@@ -7,7 +9,7 @@ public class Ejercicio1 {
     public static void main(String[] args) {
 
         //Creamos el archivo con la ruta por parametro.
-        File file = new File("src/resources/archivo.txt");
+        File file = new File("src/ejercicio1/resources/archivo.txt");
 
         try {
             //Creamos los flujos de lectura.
