@@ -33,24 +33,25 @@ public class LecturaJSONAPI {
             //Podemos comprobar si hemos conectado recuperando el JSON completo
             //System.out.println(bufferedReader.readLine());
 
+            //LECTURA DEL JSON COMPLETO
             //4. Creamos un StringBuffer para asegurar que cogemos el JSON de forma completa
-            StringBuffer stringBuffer = new StringBuffer();
-            String linea = null;
+            StringBuilder stringBuffer = new StringBuilder();
+
+     /*       String linea = null;
             while ((linea = bufferedReader.readLine()) != null) {
                 //5. Anexamos la linea al stringbuffer
                 stringBuffer.append(linea);
                 System.out.println(stringBuffer.toString());
-            }
+            }*/
 
             JSONObject reponse = new JSONObject(stringBuffer.toString());
             JSONArray teams = reponse.getJSONArray("table");
-
             for (int i = 0; i < teams.length(); i++) {
                 JSONObject equipo = teams.getJSONObject(i);
                 String nombre = equipo.getString("strTeam");
+
                 System.out.println((i + 1) + "-" + nombre);
             }
-
 
         } catch (MalformedURLException e) {
             System.out.println("La url no es valida." + e.getMessage());
