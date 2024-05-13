@@ -14,12 +14,11 @@ public class Entrada {
         SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
         Session session = sessionFactory.openSession();
 
-        Coche coche = new Coche("Alfa Romeo", "Gulietta", "1900", "120", new Ficha("2025", true));
-        Coche coche1 = new Coche("Alfa Romeo1", "Gulietta1", "1900", "250", 1);
+        Coche coche = new Coche("Alfa Romeo3", "Tonale", "1600", "150", new Ficha("2026", true));
 
-        //Inciciomas la transaccion
+        //Inciciamos la transaccion
         session.beginTransaction();
-        session.persist(coche1);
+        session.persist(coche);
         session.getTransaction().commit();
         session.close();
 

@@ -19,14 +19,16 @@ public class Ficha {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "IdFicha")
     private long id;
     @Column
     private String anyo;
     @Column
     private boolean itv;
 
-    @OneToOne
-    @JoinColumn(name = "IdCoche")
+    @OneToOne(mappedBy = "ficha", cascade = CascadeType.ALL)
+    @JoinColumn(name = "IdCoche", foreignKey = @ForeignKey(name = "IdCoche"))
+
     private Coche coche;
 
     public Ficha(String anyo, boolean itv, Coche coche) {

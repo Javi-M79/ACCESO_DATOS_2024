@@ -20,6 +20,7 @@ public class Coche {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "IdCoche")
     private long id;
     @Column
     private String marca;
@@ -29,9 +30,11 @@ public class Coche {
     private String cilindrada;
     @Column
     private String caballos;
-    //Relacion
-    @OneToOne(mappedBy = "coche")
 
+
+    //Relacion
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "IdFicha")
     private Ficha ficha;
 
 
@@ -51,13 +54,5 @@ public class Coche {
         this.ficha = ficha;
     }
 
-    public Coche(String marca, String modelo, String cilindrada, String caballos, int idFicha) {
 
-        this.marca = marca;
-        this.modelo = modelo;
-        this.cilindrada = cilindrada;
-        this.caballos = caballos;
-        this.ficha.setId(idFicha);
-
-    }
 }
