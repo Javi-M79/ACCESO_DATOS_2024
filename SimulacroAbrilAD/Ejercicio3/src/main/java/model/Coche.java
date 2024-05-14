@@ -32,7 +32,7 @@ public class Coche {
     private String caballos;
 
 
-    //Relacion
+    //Relacion con ficha.
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "IdFicha")
     private Ficha ficha;

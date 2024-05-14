@@ -26,8 +26,8 @@ public class Ficha {
     @Column
     private boolean itv;
 
+    //Relacion con Coche
     @OneToOne(mappedBy = "ficha", cascade = CascadeType.ALL)
-    @JoinColumn(name = "IdCoche", foreignKey = @ForeignKey(name = "IdCoche"))
 
     private Coche coche;
 
