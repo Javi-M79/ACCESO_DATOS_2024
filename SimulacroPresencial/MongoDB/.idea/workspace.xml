@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3efa8ae4-b0ef-4e87-b657-000f89a6b69a" name="Changes" comment="Ejercicio Mongo Simulacro terminado">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Simulacro_Presencial_21Mayo/src/main/java/ejercicio2/Ejercicio2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Simulacro_Presencial_21Mayo/src/main/java/ejercicio2/controller/DAOAlumno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Simulacro_Presencial_21Mayo/src/main/java/ejercicio2/database/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Simulacro_Presencial_21Mayo/src/main/java/ejercicio2/model/Alumno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Simulacro_Presencial_21Mayo/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LIgasADJM" beforeDir="false" afterPath="$PROJECT_DIR$/../../LIgasADJM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simulacro_Presencial_21Mayo/src/main/java/ejercicio1/Ejercicio1Cifrado.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Simulacro_Presencial_21Mayo/src/main/java/ejercicio1/Ejercicio1Cifrado.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Javi-M79&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Javi-M79/ACCESO_DATOS_2024.git&quot;,
+    &quot;accountId&quot;: &quot;183dc66e-f546-42c7-b0f7-b892f745c62b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2gmnYI1Mz0orlrtaZT7CClsdPa8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MongoDB.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3efa8ae4-b0ef-4e87-b657-000f89a6b69a" name="Changes" comment="" />
+      <created>1716311667296</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716311667296</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Ejercicio Mongo Simulacro terminado">
+      <option name="closed" value="true" />
+      <created>1716314452093</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716314452093</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ejercicio Mongo Simulacro terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio Mongo Simulacro terminado" />
+  </component>
+</project>

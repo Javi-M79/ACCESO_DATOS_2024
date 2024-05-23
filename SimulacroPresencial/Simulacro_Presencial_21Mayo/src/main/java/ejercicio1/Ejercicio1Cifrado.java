@@ -18,12 +18,12 @@ public class Ejercicio1Cifrado {
         String texto = "La contraseña es Segundo de Dam";
 
         Ejercicio1Cifrado ejercicio1Cifrado = new Ejercicio1Cifrado();
-        //Accedo a los metodos.
-//        ejercicio1Cifrado.lectura(file);
-//        ejercicio1Cifrado.escribirTextoCifrado(file, texto);
+
+        ejercicio1Cifrado.escribirTextoCifrado(file, texto);
         ejercicio1Cifrado.lecturaTextoCifrado(file);
 
     }
+
 
 
     public void lecturaTextoCifrado(File file) {
@@ -32,7 +32,6 @@ public class Ejercicio1Cifrado {
             //Cuando leemos con FileReader, leemos enteros correspondiente al codigo ascci de la letra.
             reader = new BufferedReader(new FileReader(file));
             String linea;
-
             while ((linea = reader.readLine()) != null) {
                 String[] codigoAscii = linea.split(" ");
                 StringBuilder textoDescifrado = new StringBuilder();
@@ -50,6 +49,14 @@ public class Ejercicio1Cifrado {
             throw new RuntimeException(e);
         } catch (IOException e) {
             throw new RuntimeException(e);
+        }finally {
+            if(reader!=null){
+                try {
+                    reader.close();
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+            }
         }
     }
 

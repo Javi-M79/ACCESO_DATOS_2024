@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- Propiedades de la conexión -->
+
+        <!-- Driver JDBC -->
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+
+        <!-- Conexión. Añadir ?createDatabaseIfNotExist=true para crear la BBDD  -->
+        <property name="connection.url">jdbc:mysql://localhost:3306/examen</property>
+
+        <!-- Usuario y password de la BBDD -->
+        <property name="connection.username">root</property>
+        <property name="connection.password"></property>
+
+
+        <!-- Configuraciones adicionales -->
+
+        <!-- Una sesion de trabajo por Thread-->
+        <property name="current_session_context_class">thread</property>
+
+        <!-- Mantenimiento de la BBDD -->
+
+        <!-- Ficheros de mapeo. Pueden combinarse-->
+
+        <!-- Mapeo DENTRO DE LA CLASE -->
+
+        <mapping class="ejercicio2.model.Alumno"/>
+    </session-factory>
+</hibernate-configuration>
